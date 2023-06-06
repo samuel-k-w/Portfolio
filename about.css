@@ -1,0 +1,103 @@
+/**
+ABOUT US Page */
+body {
+    background-color: #000000;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    background-color: #1369fc;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 100%;
+    align-items: center;
+}
+
+.header .btn {
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    max-width: 210px;
+    color: rgb(0, 157, 254);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-content: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.header .btn:hover {
+    background-color: #1369fc;
+    color: whitesmoke;
+}
+#square {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    height: 85%;
+    width: 50%;
+    background-color: #ffffff;
+    border: 5px solid black;
+}
+
+.infoTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border: 2.4px solid black;
+    background-color: rgba(41, 124, 225, 0.662);
+    color: rgb(255, 255, 255);
+    Width: 95%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.info {
+    display: block;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border: 2.4px solid black;
+    background-color: white;
+
+    Width: 95%;
+    height: 90%;
+    font-size: 1.2em;
+}
+
+p {
+    padding: 02%;
+    color: #147ec9;
+    font-size: 30px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 36%;
+    background-color: white;
+    border: 2.5px solid black;
+
+}
+
+.link {
+    color: black;
+    font-family: Avenir Book;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.inbetween {
+    color: black;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+}
